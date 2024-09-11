@@ -8,7 +8,7 @@ CONFIG_SCHEMA = vol.Schema(
     {
         vol.Required("camera_entity_id"): str,
         vol.Required("upload_interval", default=60): int,
-        vol.Required("api_token", default="Obtained from connect.prusa3d.com"): str,
+        vol.Required("api_token"): str,
         vol.Required("camera_id", default=str(uuid.uuid4())): str,
     }
 )
