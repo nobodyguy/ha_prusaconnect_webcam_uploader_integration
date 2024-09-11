@@ -3,4 +3,4 @@ HA integration for PrusaConnect Webcam - turn any HA camera entity into PrusaCon
 
 # TODO
 * Resize image (PIL)
-* Configurable switch entity that should trigger snapshoting - https://developers.home-assistant.io/docs/integration_listen_events
+* Configurable PrusaLink enum sensor that should trigger snapshoting - https://developers.home-assistant.io/docs/integration_listen_events

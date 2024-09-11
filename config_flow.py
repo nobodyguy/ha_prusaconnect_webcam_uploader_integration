@@ -21,7 +21,6 @@ class PrusaConnectConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     async def async_step_user(self, user_input=None):
         """Handle the initial step."""
         if user_input is not None:
-            user_input["prusa_connect_url"] = PRUSA_CONNECT_API_URL  # Přidej URL do konfigurace
             return self.async_create_entry(title="PrusaConnect Webcam Uploader", data=user_input)
 
         return self.async_show_form(step_id="user", data_schema=CONFIG_SCHEMA)
