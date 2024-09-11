@@ -1,0 +1,10 @@
+{
+    "domain": "prusaconnect_webcam_uploader",
+    "name": "PrusaConnect Webcam Uploader",
+    "version": "1.0.0",
+    "documentation": "https://github.com/nobodyguy/ha_prusaconnect_webcam_uploader_integration",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@nobodyguy"],
+    "config_flow": true
+  }
