@@ -1,7 +1,5 @@
 # PrusaConnect Webcam Uploader
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
-
 The **PrusaConnect Webcam Uploader** integration for Home Assistant allows you to periodically upload images from a configured Home Assistant Camera entity to Prusa Connect.
 
 ## Features
@@ -23,8 +21,11 @@ The **PrusaConnect Webcam Uploader** integration for Home Assistant allows you t
 Alternatively, you can manually copy the `prusaconnect_webcam_uploader` folder to your `custom_components` directory.
 
 ## Configuration
+Click on the button below.
 
-To configure the integration:
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=prusaconnect_webcam_uploader)
+
+Or configure the integration manually:
 
 1. Go to **Configuration** > **Integrations** in Home Assistant.
 2. Click on the **Add Integration** button.
